@@ -4,11 +4,13 @@ plugins {
     kotlin("jvm") version "1.2.71"
 }
 
-group = "pro.tark.detekt.tarkrules"
-version = "1.0-SNAPSHOT"
-
-
 val detektVersion: String by project
+val detektTarkRulesVersion: String by project
+
+group = "pro.tark.detekt.tarkrules"
+version = detektTarkRulesVersion
+
+
 
 repositories {
     mavenCentral()
